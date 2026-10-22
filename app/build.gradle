@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    namespace 'com.faroquetech.aospisland'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.faroquetech.aospisland'
+        minSdk 26
+        targetSdk 34
+        versionCode 19
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    // Xposed API is provided by LSPosed at runtime; this is a compile-only stub.
+    compileOnly project(':xposed-stub')
+}

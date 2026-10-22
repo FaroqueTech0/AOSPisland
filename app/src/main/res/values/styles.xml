@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="island_mint">#72E5D5</color>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:colorAccent">@color/island_mint</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorControlActivated">@color/island_mint</item>
+        <item name="android:colorControlHighlight">#3372E5D5</item>
+        <item name="android:alertDialogTheme">@style/IslandDialogTheme</item>
+    </style>
+    <style name="Theme.AOSPIsland" parent="AppTheme" />
+    <style name="IslandDialogTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorAccent">@color/island_mint</item>
+        <item name="android:colorControlActivated">@color/island_mint</item>
+        <item name="android:windowBackground">#171E27</item>
+    </style>
+</resources>
