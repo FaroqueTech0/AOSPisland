@@ -278,10 +278,4 @@ AOSPIsland is an independent Android customization project focused on bringing n
 
 ---
 
-## 📄 License
-
-Add the project's actual license here before publishing. Until a license is specified, users should not assume that the source code is available for unrestricted reuse.
-
----
-
 **AOSPIsland — Your activities. One island.**
