@@ -225,28 +225,6 @@ A feature working on one ROM does not guarantee identical behavior on every devi
 
 ---
 
-## 🧑‍💻 Development
-
-AOSPIsland is developed with Kotlin and Android development tools.
-
-Open the project in a compatible Android IDE and use the Gradle wrapper included in the repository.
-
-Build a debug APK:
-
-```bash
-./gradlew assembleDebug
-```
-
-The output is normally generated at:
-
-```text
-app/build/outputs/apk/debug/app-debug.apk
-```
-
-Use the project's actual Gradle, JDK, and Android SDK configuration. Release builds should be signed with the appropriate release credentials.
-
----
-
 ## 🐛 Bug Reports
 
 When reporting a bug, include:
